@@ -22,12 +22,12 @@ pipeline {
         }
         stage('DockerBuild') {
       steps {
-        sh 'docker build -t benjaminjbonnet/project-one:latest .'
+        sh 'docker build -t benjaminjbonnet/project-one.6:latest .'
       }
         }
          stage('DockerRun') {
       steps {
-        sh 'docker run -d -p 7070:7070 benjaminjbonnet/project-one'
+        sh 'docker run -d -p 7070:7070 benjaminjbonnet/project-one.6'
       }
         }
   }
