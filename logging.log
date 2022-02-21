@@ -1,0 +1,406 @@
+2022-02-20 19:41:38,752 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 11228 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:41:38,752 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:41:39,126 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:41:39,144 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:41:39,357 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:41:39,358 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:41:39,358 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:41:39,391 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:41:39,391 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 627 ms
+2022-02-20 19:41:39,439 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:41:39,446 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-2 - Starting...
+2022-02-20 19:41:43,009 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 10552 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:41:43,010 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:41:43,099 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {restartedMain} Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-20 19:41:43,103 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {restartedMain} For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-20 19:41:44,150 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:41:44,228 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:41:45,549 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:41:45,564 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:41:45,565 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:41:45,792 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:41:45,793 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 2687 ms
+2022-02-20 19:41:45,979 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:41:46,072 [INFO] org.hibernate.Version {restartedMain} HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-20 19:41:46,297 [INFO] org.hibernate.annotations.common.Version {restartedMain} HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-20 19:41:46,460 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-1 - Starting...
+2022-02-20 19:41:47,657 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-1 - Start completed.
+2022-02-20 19:41:47,692 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:41:53,628 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:41:53,756 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:41:54,487 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:41:55,117 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:41:55,243 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:41:55,260 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 12.831 seconds (JVM running for 13.951)
+2022-02-20 19:43:31,588 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-5} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:43:31,597 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-5} HikariPool-1 - Shutdown initiated...
+2022-02-20 19:43:31,627 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-5} HikariPool-1 - Shutdown completed.
+2022-02-20 19:43:32,011 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 10552 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:43:32,012 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:43:32,472 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:43:32,487 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:43:32,719 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:43:32,720 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:43:32,720 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:43:32,778 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:43:32,778 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 763 ms
+2022-02-20 19:43:32,838 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:43:32,845 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-2 - Starting...
+2022-02-20 19:43:33,562 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-2 - Start completed.
+2022-02-20 19:43:33,563 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:43:33,986 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:43:33,986 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:43:34,088 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:43:34,196 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:43:34,217 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:43:34,224 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 2.362 seconds (JVM running for 112.915)
+2022-02-20 19:43:34,228 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 19:45:02,010 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-7} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:45:02,011 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-7} HikariPool-2 - Shutdown initiated...
+2022-02-20 19:45:02,018 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-7} HikariPool-2 - Shutdown completed.
+2022-02-20 19:45:02,130 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 10552 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:45:02,130 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:45:02,380 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:45:02,393 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:45:02,506 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:45:02,508 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:45:02,508 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:45:02,555 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:45:02,556 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 419 ms
+2022-02-20 19:45:02,598 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:45:02,605 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-3 - Starting...
+2022-02-20 19:45:03,271 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-3 - Start completed.
+2022-02-20 19:45:03,273 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:45:03,737 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:45:03,738 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:45:03,866 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:45:03,956 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:45:03,969 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:45:03,982 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 1.886 seconds (JVM running for 202.673)
+2022-02-20 19:45:03,985 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 19:45:15,355 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-7070-exec-3} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-20 19:45:15,355 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-3} Initializing Servlet 'dispatcherServlet'
+2022-02-20 19:45:15,357 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-3} Completed initialization in 1 ms
+2022-02-20 19:49:46,184 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-11} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:49:46,186 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-11} HikariPool-3 - Shutdown initiated...
+2022-02-20 19:49:46,191 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-11} HikariPool-3 - Shutdown completed.
+2022-02-20 19:49:46,432 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 10552 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:49:46,432 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:49:53,335 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 14316 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:49:53,336 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:49:53,426 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {restartedMain} Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-20 19:49:53,427 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {restartedMain} For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-20 19:49:54,613 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:49:54,693 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:49:55,548 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:49:55,559 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:49:55,560 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:49:55,728 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:49:55,728 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 2301 ms
+2022-02-20 19:49:56,061 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:49:56,123 [INFO] org.hibernate.Version {restartedMain} HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-20 19:49:56,322 [INFO] org.hibernate.annotations.common.Version {restartedMain} HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-20 19:49:56,480 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-1 - Starting...
+2022-02-20 19:49:57,714 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-1 - Start completed.
+2022-02-20 19:49:57,750 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:49:59,264 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:49:59,280 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:49:59,859 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:50:00,333 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:50:00,631 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:50:00,649 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 7.934 seconds (JVM running for 9.287)
+2022-02-20 19:50:00,723 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-7070-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-20 19:50:00,724 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Initializing Servlet 'dispatcherServlet'
+2022-02-20 19:50:00,726 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Completed initialization in 2 ms
+2022-02-20 19:51:12,922 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-5} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:51:12,925 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-5} HikariPool-1 - Shutdown initiated...
+2022-02-20 19:51:12,935 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-5} HikariPool-1 - Shutdown completed.
+2022-02-20 19:51:13,060 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 14316 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:51:13,060 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:51:13,319 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:51:13,331 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:51:13,471 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:51:13,473 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:51:13,473 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:51:13,505 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:51:13,505 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 440 ms
+2022-02-20 19:51:13,559 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:51:13,566 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-2 - Starting...
+2022-02-20 19:51:14,297 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-2 - Start completed.
+2022-02-20 19:51:14,297 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:51:14,788 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:51:14,789 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:51:14,926 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:51:15,043 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:51:15,070 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:51:15,083 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 2.065 seconds (JVM running for 83.721)
+2022-02-20 19:51:15,088 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 19:51:58,601 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-7} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:51:58,602 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-7} HikariPool-2 - Shutdown initiated...
+2022-02-20 19:51:58,612 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-7} HikariPool-2 - Shutdown completed.
+2022-02-20 19:51:58,741 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 14316 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:51:58,741 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:51:58,955 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:51:58,967 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:51:59,077 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:51:59,078 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:51:59,079 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:51:59,103 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:51:59,103 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 358 ms
+2022-02-20 19:52:02,299 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:52:02,301 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:52:02,391 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {restartedMain} Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-20 19:52:02,391 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor {restartedMain} For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-20 19:52:03,379 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:52:03,451 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:52:04,237 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:52:04,248 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:52:04,249 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:52:04,358 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:52:04,358 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 1966 ms
+2022-02-20 19:52:04,526 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:52:04,588 [INFO] org.hibernate.Version {restartedMain} HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-20 19:52:04,790 [INFO] org.hibernate.annotations.common.Version {restartedMain} HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-20 19:52:04,924 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-1 - Starting...
+2022-02-20 19:52:06,095 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-1 - Start completed.
+2022-02-20 19:52:06,122 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:52:07,463 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:52:07,478 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:52:08,030 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:52:08,442 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:52:08,491 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:52:08,505 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 6.915 seconds (JVM running for 8.016)
+2022-02-20 19:52:21,734 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-7070-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-20 19:52:21,735 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Initializing Servlet 'dispatcherServlet'
+2022-02-20 19:52:21,737 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Completed initialization in 2 ms
+2022-02-20 19:54:49,413 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-5} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:54:49,416 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-5} HikariPool-1 - Shutdown initiated...
+2022-02-20 19:54:49,425 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-5} HikariPool-1 - Shutdown completed.
+2022-02-20 19:54:50,026 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:54:50,027 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:54:50,252 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:54:50,266 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:54:50,396 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:54:50,398 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:54:50,398 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:54:50,433 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:54:50,433 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 404 ms
+2022-02-20 19:54:50,476 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:54:50,482 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-2 - Starting...
+2022-02-20 19:54:51,160 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-2 - Start completed.
+2022-02-20 19:54:51,162 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:54:51,619 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:54:51,620 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:54:51,747 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:54:51,866 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:54:51,883 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:54:51,898 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 1.961 seconds (JVM running for 171.409)
+2022-02-20 19:54:51,902 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 19:54:54,919 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-7070-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-20 19:54:54,920 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Initializing Servlet 'dispatcherServlet'
+2022-02-20 19:54:54,921 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Completed initialization in 1 ms
+2022-02-20 19:54:55,263 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] {http-nio-7070-exec-1} Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements
+
+	at com.projectone.reimbursements.ReimbursementJPAResource.refrieveAllReimbursements(ReimbursementJPAResource.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.15.jar:5.3.15]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.15.jar:5.3.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+2022-02-20 19:55:04,749 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-7} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:55:04,751 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-7} HikariPool-2 - Shutdown initiated...
+2022-02-20 19:55:04,757 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-7} HikariPool-2 - Shutdown completed.
+2022-02-20 19:55:04,877 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:55:04,878 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:55:05,092 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:55:05,108 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:55:05,223 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:55:05,224 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:55:05,225 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:55:05,250 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:55:05,250 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 367 ms
+2022-02-20 19:55:05,287 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:55:05,295 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-3 - Starting...
+2022-02-20 19:55:06,040 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-3 - Start completed.
+2022-02-20 19:55:06,041 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:55:06,510 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:55:06,511 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:55:06,664 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:55:06,776 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:55:06,788 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:55:06,818 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 1.983 seconds (JVM running for 186.33)
+2022-02-20 19:55:06,823 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 19:55:10,041 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-7070-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-20 19:55:10,042 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Initializing Servlet 'dispatcherServlet'
+2022-02-20 19:55:10,044 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Completed initialization in 1 ms
+2022-02-20 19:55:10,046 [INFO] com.projectone.reimbursements.ReimbursementJPAResource {http-nio-7070-exec-1} Returning all Tickets
+2022-02-20 19:56:49,394 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-11} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:56:49,395 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-11} HikariPool-3 - Shutdown initiated...
+2022-02-20 19:56:49,403 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-11} HikariPool-3 - Shutdown completed.
+2022-02-20 19:56:49,503 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 19:56:49,503 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 19:56:49,710 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 19:56:49,720 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2022-02-20 19:56:49,813 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 19:56:49,815 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 19:56:49,816 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 19:56:49,836 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 19:56:49,836 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 331 ms
+2022-02-20 19:56:49,870 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 19:56:49,880 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-4 - Starting...
+2022-02-20 19:56:50,593 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-4 - Start completed.
+2022-02-20 19:56:50,595 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 19:56:51,039 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 19:56:51,040 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 19:56:51,168 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 19:56:51,249 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 19:56:51,259 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 19:56:51,270 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 1.801 seconds (JVM running for 290.781)
+2022-02-20 19:56:51,272 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 20:10:23,406 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-15} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:10:23,408 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-15} HikariPool-4 - Shutdown initiated...
+2022-02-20 20:10:23,417 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-15} HikariPool-4 - Shutdown completed.
+2022-02-20 20:10:23,538 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 20:10:23,539 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 20:10:23,759 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 20:10:23,770 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2022-02-20 20:10:23,864 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 20:10:23,865 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 20:10:23,865 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 20:10:23,896 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 20:10:23,896 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 353 ms
+2022-02-20 20:10:23,934 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 20:10:23,942 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-5 - Starting...
+2022-02-20 20:10:24,660 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-5 - Start completed.
+2022-02-20 20:10:24,661 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 20:10:25,233 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 20:10:25,234 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:10:25,383 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 20:10:25,480 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 20:10:25,492 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 20:10:25,502 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 1.995 seconds (JVM running for 1105.013)
+2022-02-20 20:10:25,503 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 20:11:49,541 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-19} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:11:49,543 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-19} HikariPool-5 - Shutdown initiated...
+2022-02-20 20:11:49,553 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-19} HikariPool-5 - Shutdown completed.
+2022-02-20 20:11:49,672 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 20:11:49,673 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 20:11:49,910 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 20:11:49,922 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2022-02-20 20:11:50,018 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 20:11:50,019 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 20:11:50,019 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 20:11:50,067 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 20:11:50,067 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 390 ms
+2022-02-20 20:11:50,103 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 20:11:50,110 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-6 - Starting...
+2022-02-20 20:11:50,951 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-6 - Start completed.
+2022-02-20 20:11:50,952 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 20:11:51,447 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 20:11:51,448 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:11:51,606 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 20:11:51,705 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 20:11:51,715 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 20:11:51,729 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 2.109 seconds (JVM running for 1191.24)
+2022-02-20 20:11:51,731 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 20:13:33,092 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-23} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:13:33,093 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-23} HikariPool-6 - Shutdown initiated...
+2022-02-20 20:13:33,098 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-23} HikariPool-6 - Shutdown completed.
+2022-02-20 20:13:33,215 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 20:13:33,216 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 20:13:33,430 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 20:13:33,441 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2022-02-20 20:13:33,606 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 20:13:33,608 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 20:13:33,608 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 20:13:33,643 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 20:13:33,643 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 424 ms
+2022-02-20 20:13:33,678 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 20:13:33,684 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-7 - Starting...
+2022-02-20 20:13:34,669 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-7 - Start completed.
+2022-02-20 20:13:34,670 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 20:13:35,161 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 20:13:35,162 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:13:35,399 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 20:13:35,530 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 20:13:35,585 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 20:13:35,598 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 2.427 seconds (JVM running for 1295.109)
+2022-02-20 20:13:35,600 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 20:14:08,974 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {Thread-27} Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:14:08,975 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-27} HikariPool-7 - Shutdown initiated...
+2022-02-20 20:14:08,982 [INFO] com.zaxxer.hikari.HikariDataSource {Thread-27} HikariPool-7 - Shutdown completed.
+2022-02-20 20:14:09,088 [INFO] com.projectone.ProjectOneApplication {restartedMain} Starting ProjectOneApplication using Java 17.0.1 on DESKTOP-QE1LE6M with PID 13924 (C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne\target\classes started by benja in C:\Users\benja\OneDrive\Desktop\Porjects\projects\p1\ProjectOne)
+2022-02-20 20:14:09,089 [INFO] com.projectone.ProjectOneApplication {restartedMain} No active profile set, falling back to default profiles: default
+2022-02-20 20:14:09,289 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-20 20:14:09,300 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate {restartedMain} Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2022-02-20 20:14:09,398 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat initialized with port(s): 7070 (http)
+2022-02-20 20:14:09,399 [INFO] org.apache.catalina.core.StandardService {restartedMain} Starting service [Tomcat]
+2022-02-20 20:14:09,400 [INFO] org.apache.catalina.core.StandardEngine {restartedMain} Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-20 20:14:09,422 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {restartedMain} Initializing Spring embedded WebApplicationContext
+2022-02-20 20:14:09,423 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext {restartedMain} Root WebApplicationContext: initialization completed in 332 ms
+2022-02-20 20:14:09,463 [INFO] org.hibernate.jpa.internal.util.LogHelper {restartedMain} HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-20 20:14:09,468 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-8 - Starting...
+2022-02-20 20:14:10,225 [INFO] com.zaxxer.hikari.HikariDataSource {restartedMain} HikariPool-8 - Start completed.
+2022-02-20 20:14:10,225 [INFO] org.hibernate.dialect.Dialect {restartedMain} HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-20 20:14:10,735 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator {restartedMain} HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-20 20:14:10,737 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean {restartedMain} Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-20 20:14:10,862 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration {restartedMain} spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-20 20:14:10,952 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer {restartedMain} LiveReload server is running on port 35729
+2022-02-20 20:14:10,965 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer {restartedMain} Tomcat started on port(s): 7070 (http) with context path ''
+2022-02-20 20:14:10,971 [INFO] com.projectone.ProjectOneApplication {restartedMain} Started ProjectOneApplication in 1.918 seconds (JVM running for 1330.481)
+2022-02-20 20:14:10,974 [INFO] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener {restartedMain} Condition evaluation unchanged
+2022-02-20 20:14:16,244 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] {http-nio-7070-exec-1} Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-20 20:14:16,244 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Initializing Servlet 'dispatcherServlet'
+2022-02-20 20:14:16,260 [INFO] org.springframework.web.servlet.DispatcherServlet {http-nio-7070-exec-1} Completed initialization in 16 ms
+2022-02-20 20:14:16,449 [INFO] com.projectone.reimbursements.ReimbursementJPAResource {http-nio-7070-exec-1} Returning all Tickets[Reimbursements(reimbursementId=14, status=approved, amount=500.0, description=credit, type=for all the money you spent, resolvetime=Tue Feb 15 2022 23:28:42 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=3, status=pending, amount=500.0, description=thank you for everything, type=left, resolvetime=Tue Feb 15 2022 23:43:31 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=15, status=approved, amount=500.0, description=refund, type=refund, resolvetime=Tue Feb 15 2022 23:45:10 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=13, status=approved, amount=500.0, description=credit, type=credit, resolvetime=Tue Feb 15 2022 23:04:40 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=16, status=approved, amount=500.0, description=credit , type=debit, resolvetime=Tue Feb 15 2022 23:05:12 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=4, status=denied, amount=500.0, description=credit, type=doobit, resolvetime=Tue Feb 15 2022 23:05:49 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=17, status=approved, amount=500.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:20 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=10, status=approved, amount=100.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:32 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=7, status=denied, amount=500.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:42 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=2, status=approved, amount=200.0, description=can i get my money back, type=doobit, resolvetime=Tue Feb 15 2022 23:07:27 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=12, status=approved, amount=500.0, description=compensation for this day, type=doobit, resolvetime=Tue Feb 15 2022 23:08:07 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=11, status=approved, amount=20.0, description=request for refund, type=doobit, resolvetime=Tue Feb 15 2022 23:08:17 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=9, status=approved, amount=500.0, description=compensation for this day, type=doobit, resolvetime=Tue Feb 15 2022 23:08:25 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=8, status=approved, amount=500.0, description=compensation for this day, type=debit, resolvetime=Tue Feb 15 2022 23:08:34 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=6, status=denied, amount=300.0, description=..., type=credit, resolvetime=Tue Feb 15 2022 23:13:01 GMT-0500 (Eastern Standard Time))]
+2022-02-20 20:14:18,319 [INFO] com.projectone.reimbursements.ReimbursementJPAResource {http-nio-7070-exec-2} Returning all Tickets[Reimbursements(reimbursementId=14, status=approved, amount=500.0, description=credit, type=for all the money you spent, resolvetime=Tue Feb 15 2022 23:28:42 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=3, status=pending, amount=500.0, description=thank you for everything, type=left, resolvetime=Tue Feb 15 2022 23:43:31 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=15, status=approved, amount=500.0, description=refund, type=refund, resolvetime=Tue Feb 15 2022 23:45:10 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=13, status=approved, amount=500.0, description=credit, type=credit, resolvetime=Tue Feb 15 2022 23:04:40 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=16, status=approved, amount=500.0, description=credit , type=debit, resolvetime=Tue Feb 15 2022 23:05:12 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=4, status=denied, amount=500.0, description=credit, type=doobit, resolvetime=Tue Feb 15 2022 23:05:49 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=17, status=approved, amount=500.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:20 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=10, status=approved, amount=100.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:32 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=7, status=denied, amount=500.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:42 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=2, status=approved, amount=200.0, description=can i get my money back, type=doobit, resolvetime=Tue Feb 15 2022 23:07:27 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=12, status=approved, amount=500.0, description=compensation for this day, type=doobit, resolvetime=Tue Feb 15 2022 23:08:07 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=11, status=approved, amount=20.0, description=request for refund, type=doobit, resolvetime=Tue Feb 15 2022 23:08:17 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=9, status=approved, amount=500.0, description=compensation for this day, type=doobit, resolvetime=Tue Feb 15 2022 23:08:25 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=8, status=approved, amount=500.0, description=compensation for this day, type=debit, resolvetime=Tue Feb 15 2022 23:08:34 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=6, status=denied, amount=300.0, description=..., type=credit, resolvetime=Tue Feb 15 2022 23:13:01 GMT-0500 (Eastern Standard Time))]
+2022-02-20 20:14:20,548 [INFO] com.projectone.reimbursements.ReimbursementJPAResource {http-nio-7070-exec-3} Returning all Tickets[Reimbursements(reimbursementId=14, status=approved, amount=500.0, description=credit, type=for all the money you spent, resolvetime=Tue Feb 15 2022 23:28:42 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=3, status=pending, amount=500.0, description=thank you for everything, type=left, resolvetime=Tue Feb 15 2022 23:43:31 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=15, status=approved, amount=500.0, description=refund, type=refund, resolvetime=Tue Feb 15 2022 23:45:10 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=13, status=approved, amount=500.0, description=credit, type=credit, resolvetime=Tue Feb 15 2022 23:04:40 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=16, status=approved, amount=500.0, description=credit , type=debit, resolvetime=Tue Feb 15 2022 23:05:12 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=4, status=denied, amount=500.0, description=credit, type=doobit, resolvetime=Tue Feb 15 2022 23:05:49 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=17, status=approved, amount=500.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:20 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=10, status=approved, amount=100.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:32 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=7, status=denied, amount=500.0, description=refund, type=doobit, resolvetime=Tue Feb 15 2022 23:06:42 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=2, status=approved, amount=200.0, description=can i get my money back, type=doobit, resolvetime=Tue Feb 15 2022 23:07:27 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=12, status=approved, amount=500.0, description=compensation for this day, type=doobit, resolvetime=Tue Feb 15 2022 23:08:07 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=11, status=approved, amount=20.0, description=request for refund, type=doobit, resolvetime=Tue Feb 15 2022 23:08:17 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=9, status=approved, amount=500.0, description=compensation for this day, type=doobit, resolvetime=Tue Feb 15 2022 23:08:25 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=8, status=approved, amount=500.0, description=compensation for this day, type=debit, resolvetime=Tue Feb 15 2022 23:08:34 GMT-0500 (Eastern Standard Time)), Reimbursements(reimbursementId=6, status=denied, amount=300.0, description=..., type=credit, resolvetime=Tue Feb 15 2022 23:13:01 GMT-0500 (Eastern Standard Time))]
