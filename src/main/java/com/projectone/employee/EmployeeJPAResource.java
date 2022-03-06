@@ -1,5 +1,6 @@
 package com.projectone.employee;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -20,11 +21,15 @@ public class EmployeeJPAResource {
 	@Autowired
 	private EmployeeRepository emp;
 	
+	static List<Employee> loggedInUser = new ArrayList<Employee>();
+	
+	
 	@GetMapping("/employees")
 	public List<Employee> retrieveAllEmployees(){
 		logger.info("Returning All Employees");
 		return emp.findAll();
 	}
+
 	
 	@PostMapping("/register")
 	public Employee registerEmployee(@RequestBody Employee employee) {
@@ -38,8 +43,14 @@ public class EmployeeJPAResource {
 		String usernameJs = employee.getUsername();
 		List<Employee> userFromDatabase = emp.findByUsername(usernameJs);
 		logger.info("returning user"+userFromDatabase );
+		loggedInUser.addAll(userFromDatabase);
 		return userFromDatabase;
 		
+	}
+	@GetMapping("/get-logged-in-user")
+	public List<Employee> getLoggedInUser(){
+		
+		return loggedInUser;
 	}
 
 }

@@ -35,7 +35,7 @@ public class ReimbursementJPAResource {
 	
 	@PostMapping("/reimbursements/newreimbursement")
 	public Reimbursements newReimbursement(@RequestBody Reimbursements reimbursement) {
-		Reimbursements newReimbursement = remRepo.save(reimbursement);
+		Reimbursements newReimbursement =  remRepo.save(reimbursement);
 	
 		logger.info("Submitted ticket #" + newReimbursement.getReimbursementId() );
 			return newReimbursement;
